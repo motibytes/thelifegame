@@ -1,0 +1,28 @@
+<h1>Featured Byte</h1>
+<!--   <li>
+      <a href="./2019/08/26/A-Message.html"> {{ post.title }}  </a>
+   </li> -->
+
+   {% for post in site.posts limit:1 %}
+      {% if post.featured ==yes %}
+         <li>
+               <a href="{{ post.url }}"> {{ post.title }}</a>
+               {{ post.excerpt }}
+         </li>
+      {% endif %}
+   {% endfor %}
+<!--{% for post in site.posts  %}
+  <li>
+    <a href="{{ post.url }}"> {{ post.title }}  </a>
+    {{ post.excerpt }}
+  </li>
+{% endfor %}
+-->
+
+<h1>Recent Bytes</h1>
+{% for post in site.posts limit:2 %}<!--offset:1 -->
+<li>
+  <a href="{{ post.url }}"> {{ post.title }} - {{ post.date | date_to_string }} </a>
+  {{ post.excerpt }}
+</li>
+{% endfor %}
