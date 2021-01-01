@@ -8,6 +8,15 @@ _Be mindful not to take any of these readings as absolute truth, simply take fro
 
 Not interested in reading right now? Why not bookmark this page and come back later?
 <br>
+
+## Community:
+
+<dt>  </dt>
+
+<dd><a href="https://thelifegame.forumotion.com/">The Life Game Community Discussion Boards </a> </dd>
+<dt>&nbsp;</dt>
+
+
 ## Essential Readings:
 
 <dt> How to Find Your Purpose in Life (Wikihow) </dt>
