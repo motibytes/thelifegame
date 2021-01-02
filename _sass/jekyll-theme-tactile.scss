@@ -1,6 +1,6 @@
 @import "rouge-base16-dark";
 @import url('https://fonts.googleapis.com/css?family=Chivo:900');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Raleway:wght@400;500&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -89,7 +89,11 @@ table {
 	/* END ADD */
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  /* END ADD font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Raleway', sans-serif;
+
+   */
+  font-family: 'Poppins', sans-serif
   font-size: 1em;
   line-height: 1.5;
   color: #6d6d6d;
@@ -112,7 +116,9 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+	/*
+
+  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; */
   font-size: 48px; font-weight: 900;
   line-height: 1.2;
   color: #303030;
