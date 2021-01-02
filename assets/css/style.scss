@@ -12,6 +12,11 @@ body {
    */
   font-family: 'Poppins', sans-serif !important;
 }
+
+header h1 {
+   font-family: 'Raleway', sans-serif; /* modified by me */
+
+}
 /* everything I modified JB important may not be needed
 
 a {
@@ -23,10 +28,10 @@ a:hover {
 /* everything I added JB */
 
 .navie {
-
-     padding-top: 5px;
-     padding-left: 5px;
-    vertical-align: middle;
+   font-family: 'Raleway', sans-serif; /* modified by me */ 
+   padding-top: 5px;
+   padding-left: 5px;
+   vertical-align: middle;
 }
 .jbicotiny {
       width: 33px;
